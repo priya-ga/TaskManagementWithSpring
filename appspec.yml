@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/TMWithSpring
+    destination: /var/
 hooks:
   ApplicationStart:
     - location: scripts/app_deployment.sh
